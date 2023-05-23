@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
-  <Transactions>
-    <Transaction>2023.05.17 18:15:17.163,=D:\c++builder\Project1PCH1.h</Transaction>
-    <Transaction>2023.05.17 18:15:17.227,=D:\c++builder\Unit1.cpp</Transaction>
-    <Transaction>2023.05.17 18:15:31.324,D:\lozich\Unit1.h=D:\c++builder\Unit1.h</Transaction>
-    <Transaction>2023.05.17 18:15:31.324,D:\lozich\Unit1.dfm=D:\c++builder\Unit1.dfm</Transaction>
-    <Transaction>2023.05.17 18:15:31.324,D:\lozich\Unit1.cpp=D:\c++builder\Unit1.cpp</Transaction>
-    <Transaction>2023.05.17 18:15:56.779,D:\lozich\lozichPCH1.h=D:\c++builder\Project1PCH1.h</Transaction>
-    <Transaction>2023.05.17 18:15:56.790,D:\lozich\lozich.cbproj=D:\c++builder\Project1.cbproj</Transaction>
-    <Transaction>2023.05.17 18:15:59.466,D:\lozich\lozich.cbproj=D:\lozich\lozich.cbproj</Transaction>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.790,D:\c++builder\Project1.cbproj=D:\lozich\lozich.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.227,=D:\c++builder\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.324,D:\c++builder\Unit1.cpp=D:\lozich\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.324,D:\c++builder\Unit1.h=D:\lozich\Unit1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.163,=D:\c++builder\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.779,D:\c++builder\Project1PCH1.h=D:\lozich\lozichPCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.324,D:\c++builder\Unit1.dfm=D:\lozich\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.466,D:\lozich\lozich.cbproj=D:\lozich\lozich.cbproj</Transaction>
   </Transactions>
 </BorlandProject>
