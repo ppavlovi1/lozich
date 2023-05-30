@@ -138,20 +138,20 @@
             <BuildOrder>2</BuildOrder>
         </CppCompile>
         <CppCompile Include="Unit2.cpp">
-            <Form>Form2</Form>
+            <Form>Aplikacija</Form>
             <FormType>dfm</FormType>
             <DependentOn>Unit2.h</DependentOn>
             <BuildOrder>3</BuildOrder>
         </CppCompile>
         <CppCompile Include="Unit3.cpp">
-            <Form>Form3</Form>
+            <Form>Registracija</Form>
             <FormType>dfm</FormType>
             <DependentOn>Unit3.h</DependentOn>
             <BuildOrder>4</BuildOrder>
         </CppCompile>
-        <FormResources Include="Unit1.dfm"/>
-        <FormResources Include="Unit2.dfm"/>
         <FormResources Include="Unit3.dfm"/>
+        <FormResources Include="Unit2.dfm"/>
+        <FormResources Include="Unit1.dfm"/>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>

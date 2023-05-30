@@ -8,14 +8,14 @@
 #include <Vcl.StdCtrls.hpp>
 #include <Vcl.Forms.hpp>
 //---------------------------------------------------------------------------
-class TForm2 : public TForm
+class TAplikacija : public TForm
 {
 __published:	// IDE-managed Components
 private:	// User declarations
 public:		// User declarations
-	__fastcall TForm2(TComponent* Owner);
+	__fastcall TAplikacija(TComponent* Owner);
 };
 //---------------------------------------------------------------------------
-extern PACKAGE TForm2 *Form2;
+extern PACKAGE TAplikacija *Aplikacija;
 //---------------------------------------------------------------------------
 #endif

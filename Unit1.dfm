@@ -2,8 +2,8 @@ object Form1: TForm1
   Left = 0
   Top = 0
   Caption = 'Pocetna'
-  ClientHeight = 434
-  ClientWidth = 613
+  ClientHeight = 430
+  ClientWidth = 597
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -32,6 +32,7 @@ object Form1: TForm1
     Height = 25
     Caption = 'Prijava'
     TabOrder = 0
+    OnClick = Button1Click
   end
   object EditKorisnicko: TEdit
     Left = 32
@@ -54,19 +55,25 @@ object Form1: TForm1
     Height = 25
     Caption = 'Registracija'
     TabOrder = 3
+    OnClick = Button2Click
   end
   object ADOConnection1: TADOConnection
+    Connected = True
     ConnectionString = 
       'Provider=Microsoft.Jet.OLEDB.4.0;Data Source=lozich_db.mdb;Persi' +
       'st Security Info=False'
     LoginPrompt = False
+    Mode = cmShareDenyNone
     Provider = 'Microsoft.Jet.OLEDB.4.0'
-    Left = 272
+    Left = 304
     Top = 40
   end
-  object ADOTable1: TADOTable
+  object Korisnici: TADOTable
+    Active = True
     Connection = ADOConnection1
-    Left = 240
+    CursorType = ctStatic
+    TableName = 'Users'
+    Left = 304
     Top = 104
   end
 end
